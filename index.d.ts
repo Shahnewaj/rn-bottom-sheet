@@ -4,6 +4,7 @@ import { StyleProp, ViewStyle } from "react-native";
 declare module "rn-bottom-sheet" {
   export type RBSheetProps = {
     animationType?: "none" | "fade" | "slide";
+    statusBarTranslucent?:  boolean;
     height?: number;
     minClosingHeight?: number;
     openDuration?: number;

@@ -90,6 +90,7 @@ class RBSheet extends Component {
   render() {
     const {
       animationType,
+      statusBarTranslucent,
       closeOnDragDown,
       dragFromTopOnly,
       closeOnPressMask,
@@ -107,6 +108,7 @@ class RBSheet extends Component {
       <Modal
         transparent
         animationType={animationType}
+        statusBarTranslucent={statusBarTranslucent}
         visible={modalVisible}
         supportedOrientations={SUPPORTED_ORIENTATIONS}
         onRequestClose={() => {
@@ -145,6 +147,7 @@ class RBSheet extends Component {
 
 RBSheet.propTypes = {
   animationType: PropTypes.oneOf(["none", "slide", "fade"]),
+  statusBarTranslucent: PropTypes.bool,
   height: PropTypes.number,
   minClosingHeight: PropTypes.number,
   openDuration: PropTypes.number,
@@ -162,6 +165,7 @@ RBSheet.propTypes = {
 
 RBSheet.defaultProps = {
   animationType: "none",
+  statusBarTranslucent: false,
   height: 260,
   minClosingHeight: 0,
   openDuration: 300,

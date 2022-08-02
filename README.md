@@ -123,6 +123,7 @@ renderItem = (item, index) => (
 | Props            | Type     | Description                                             | Default  |
 | ---------------- | -------- | ------------------------------------------------------- | -------- |
 | animationType    | string   | Background animation ("none", "fade", "slide")          | "none"   |
+| statusBarTranslucent    | boolean         | Android Status Bar(true , false)          | "false"   |
 | height           | number   | Height of Bottom Sheet                                  | 260      |
 | minClosingHeight | number   | Minimum height of Bottom Sheet before close             | 0        |
 | openDuration     | number   | Open Bottom Sheet animation duration                    | 300 (ms) |

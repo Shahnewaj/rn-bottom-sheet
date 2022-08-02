@@ -125,6 +125,7 @@ class App extends Component {
           }}
           height={60}
           animationType="none"
+          statusBarTranslucent={true}
           openDuration={200}
           customStyles={{
             wrapper: { backgroundColor: "#fff" }
