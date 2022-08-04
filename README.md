@@ -1,4 +1,4 @@
-# rn-bottom-sheet
+# rn-raw-bottom-sheet
 
 
 - Super Lightweight Component
@@ -18,13 +18,13 @@
 ## Installation
 
 ```
-npm i rn-bottom-sheet --save
+npm i rn-raw-bottom-sheet --save
 ```
 
 ### or
 
 ```
-yarn add rn-bottom-sheet
+yarn add rn-raw-bottom-sheet
 ```
 
 ## Example
@@ -34,7 +34,7 @@ yarn add rn-bottom-sheet
 ```jsx
 import React, { Component } from "react";
 import { View, Button } from "react-native";
-import RBSheet from "rn-bottom-sheet";
+import RBSheet from "rn-raw-bottom-sheet";
 
 export default class Example extends Component {
   render() {
@@ -67,7 +67,7 @@ export default class Example extends Component {
 ```jsx
 import React, { useRef } from "react";
 import { View, Button } from "react-native";
-import RBSheet from "rn-bottom-sheet";
+import RBSheet from "rn-raw-bottom-sheet";
 
 export default function Example() {
   const refRBSheet = useRef();
@@ -159,7 +159,7 @@ customStyles: {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Shahnewaj/rn-bottom-sheet/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Shahnewaj/rn-raw-bottom-sheet/blob/master/LICENSE) file for details
 
 ## Author
 

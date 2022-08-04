@@ -2,7 +2,7 @@
 /* eslint-disable import/no-unresolved */
 import React, { Component } from "react";
 import { StyleSheet, FlatList, View, TouchableOpacity, Text } from "react-native";
-import RBSheet from "rn-bottom-sheet";
+import RBSheet from "rn-raw-bottom-sheet";
 
 const ITEMS = [...Array(25).keys()];
 

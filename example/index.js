@@ -13,7 +13,7 @@ import {
 } from "react-native";
 import FAIcon from "react-native-vector-icons/FontAwesome";
 import MDIcon from "react-native-vector-icons/MaterialIcons";
-import RBSheet from "rn-bottom-sheet";
+import RBSheet from "rn-raw-bottom-sheet";
 import data from "./static.json";
 
 FAIcon.loadFont();

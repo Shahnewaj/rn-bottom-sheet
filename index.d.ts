@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { StyleProp, ViewStyle } from "react-native";
 
-declare module "rn-bottom-sheet" {
+declare module "rn-raw-bottom-sheet" {
   export type RBSheetProps = {
     animationType?: "none" | "fade" | "slide";
     statusBarTranslucent?:  boolean;
